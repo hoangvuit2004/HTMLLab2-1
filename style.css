@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+.gird-container{
+    display: grid;
+    grid-template-columns:30% 70% ;
+
+}
+.backgroundleft{
+    background-image: linear-gradient(rgb(47, 154, 248) , rgb(45, 177, 253));
+    width: 100%;
+}
+.backgroundright{
+    background-color:white ;
+    width: 100%;
+}
+
+.gird-rowleft{
+    display: grid;
+    grid-template-rows: auto;
+    
+    height: 100%;
+    
+}
+.gird-rowright{
+    display: grid;
+    grid-template-rows: auto;
+}
+.cardimg{
+    width: 100%;
+}
+.gird-contact{
+    display: grid;
+    grid-template-rows: auto;
+}
+.gird-contactcenter{
+   display: grid;
+  grid-template-columns: 40% 55%;
+  margin: 10px;
+  margin-left: 0;
+  
+
+
+}
+.main{
+    border: 1px  blue;
+    border-top-right-radius:20px ;
+    border-bottom-right-radius:20px ;
+    border-left:none ;
+    background-color: rgb(19, 109, 244);
+    text-align: right;
+
+}
+.imgborder{
+    padding-right: 10px;
+}
+.grid-contactcenter1{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    margin: 20px;
+}
+.paddingskill{
+    margin: 20px;
+}
+.grid-language{
+    display: grid;
+    grid-template-rows: auto;
+   
+}
+.border-language{
+    margin-left: 50px;
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    border: 1px  white;
+    border-top-right-radius:20px ;
+    border-bottom-right-radius:20px ;
+    border-top-left-radius:20px ;
+    border-bottom-left-radius:20px ;
+    background-color: rgb(252, 252, 253);
+   
+}
+.border-language1{
+    margin-left: 0px;
+    width: 80%;
+    height: 30px;
+   
+    border: 1px  blue;
+    border-top-right-radius:20px ;
+    border-bottom-right-radius:20px ;
+    border-top-left-radius:20px ;
+    border-bottom-left-radius:20px ;
+    background-color: rgb(63, 130, 231);
+}
+.grid-passions{
+    display: grid;
+    margin: 10px;
+    grid-template-columns: auto;
+    width: 100%;
+}
+
+.gird-profile{
+    display: grid;
+   grid-template-columns: 10% 30%  ;
+   margin: 10px;
+   margin-left: 50px;
+}
+.colorpro{
+    color: aqua;
+    width: 100%;
+}
+.cardprofile{
+    margin-left: 50px;
+    margin: 20px;
+}
+.grid-edu{
+    display: grid;
+    grid-template-columns: 10% 55%;
+    margin: 10px;
+    margin-left: 10px;
+}
